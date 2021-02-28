@@ -891,7 +891,7 @@ async function starts() {
                   nzwa.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
                nzwa.sendMessage(from, 'Nih nomor ownerku kak, save ya kak nanti di save balik',MessageType.text, { quoted: mek} )
                 break
-	case 'hidetag':
+	case ':v':
                 nzwa.updatePresence(from, Presence.composing) 
                 if (!isRegister) return reply(botLangs.daftarB())
                 if (!isGroup) return reply(botLangs.group())
